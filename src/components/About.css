@@ -1,0 +1,127 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 50px 10%;
+  background: #1e293b;
+  color: white;
+  height: 100vh;
+  width: 80%;
+  position: relative;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  
+}
+
+.about-title span {
+  color: #00d8ff;
+}
+
+.about-title-gap {
+  margin-bottom: 50px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.profile-section {
+  flex: 1;
+  text-align: left;
+}
+
+.profile-card {
+  background-color: #00d8ff;
+  padding: 50px;
+  border-radius: 50px;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: end; 
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+
+.profile-name {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.profile-role {
+  font-size: 1.5rem;
+  margin-top: 5px;
+  color: black;
+}
+
+.details-section {
+  flex: 1;
+  text-align: right;
+}
+
+.about-navigation {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.about-navigation button {
+  background: none;
+  border: none;
+  font-size: 25px;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.about-navigation button.active {
+  font-weight: bold;
+  color: #00d8ff;
+}
+
+.about-details {
+  text-align: left;
+}
+
+/* .about-details h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.about-details p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+} */
+.about-details p {
+  margin-bottom: 10px; 
+  font-size: 25px;
+}
+
+.about-details p strong {
+  color: #00d8ff; 
+  display: block; 
+  margin-top: 15px; 
+  font-size: 30px;
+
+}
